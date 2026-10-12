@@ -1,0 +1,35 @@
+# ---- secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- generated vector store (large + regenerable: rebuild from src/retriever.py) ----
+chroma_store/
+chroma_db/
+
+# ---- DeepEval config, cache, telemetry ----
+.deepeval/
+.deepeval
+.deepeval-cache.json
+.deepeval_telemetry.txt
+temp_test_run_data.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- uv / virtual env ----
+.venv/
+venv/
+# NOTE: uv.lock is intentionally NOT ignored -- commit it for reproducible installs
+
+# ---- model / HF caches (reranker cross-encoder downloads) ----
+.cache/
+
+# ---- OS / editor noise ----
+.DS_Store
+.idea/
+.vscode/
