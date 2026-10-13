@@ -1,0 +1,92 @@
+[
+  {
+    "id": "g001",
+    "query": "How does the confidence score reflect the model’s self-knowledge and truthfulness across benchmarks?",
+    "ideal_answer": "The confidence score indicates how well the model knows its own accuracy and truthfulness. It reflects the model’s self-awareness in providing reliable answers across benchmarks like knowledge, reasoning, and maths, which remain top standards for evaluating model performance.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g002",
+    "query": "If two tables differ in row order but have identical normalized values, how does sorting affect their comparison?",
+    "ideal_answer": "Sorting the normalized values in both tables ensures that differences in row order do not affect the comparison. By organizing and sorting the values row by row into tuples, you can directly compare the sorted lists. If the sorted results are exactly the same, the tables are considered identical despite the original row order.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g003",
+    "query": "How does mastering LLM evals provide a competitive edge beyond building chains, graphs, and agents?",
+    "ideal_answer": "Mastering LLM evals provides a competitive edge because it focuses on assessing whether LLM-based applications perform well and are ready for user launch—an area less explored compared to building chains, graphs, and agents. This skill is crucial from an industry perspective, offering deeper insight into application quality and usability, which most students currently overlook due to limited awareness and resources.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g004",
+    "query": "If an LLM excelled only in coding but lacked long context, how would that affect project outcomes?",
+    "ideal_answer": "If an LLM excels only in coding but lacks long context capability, it may perform well on coding tasks but struggle with projects requiring understanding or processing of extended information. This limitation can lead to incomplete or less coherent outputs in tasks needing long context comprehension, affecting overall project quality where multiple capabilities are essential.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g005",
+    "query": "How does prioritizing practical teaching from day one enhance learning outcomes compared to theory-heavy approaches?",
+    "ideal_answer": "Prioritizing practical teaching from day one enhances learning by directly applying theory, which reinforces understanding and builds real-world skills faster. As mentioned, spending time on theory initially translated into strong practical experience in courses like MLOps and deep learning, showing that this approach effectively bridges knowledge and application.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g006",
+    "query": "If you struggled initially, how might gradual practice with JPT/cloud shape your personalized roadmap?",
+    "ideal_answer": "Gradual practice with JPT/cloud helps you understand your needs over time, allowing you to create a personalized roadmap. Initially, your prompts may not be perfect, but with consistent use and project creation, your skills will improve, making the process simple and effective.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g007",
+    "query": "Which leaderboard category ranks models by combined capability, cost, and performance, most used?",
+    "ideal_answer": "The overall leaderboard category ranks models by combined capability, cost, and performance and is the most used.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g008",
+    "query": "Detail the multi-step process to reliably extract and exactly compare a numeric answer from varied LLM output formats.",
+    "ideal_answer": "To reliably extract and exactly compare a numeric answer from varied LLM outputs, follow these steps:\n\n1. **Extraction:** Use structured output enforcement or regex patterns to isolate the numeric answer from any form the LLM provides (e.g., \"the answer is 72,\" \"only 72,\" or just \"72\").\n\n2. **Normalization:** Convert the extracted value into a consistent numeric format for comparison.\n\n3. **Exact Comparison:** Perform an exact match between the extracted number and the correct answer (e.g., 72 == 72). Any deviation is marked incorrect.\n\nThis process ensures accurate scoring for closed-ended numeric answers despite varied LLM output formats.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g009",
+    "query": "How do core risk categories like correctness, relevance, completeness, and instruction following compare in general LLM apps such as tech summarizers?",
+    "ideal_answer": "In general LLM applications like tech summarizers, the core risk categories—correctness, relevance, completeness, and instruction following—are critical for ensuring quality. Correctness ensures the summary is accurate, relevance guarantees the output matches the input query, completeness checks that all key points are covered, and instruction following ensures the summary meets specified formats or lengths. These categories collectively address the main risks in such applications.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g010",
+    "query": "How do your post-Kaggle data prep steps compare to your code implementation process?",
+    "ideal_answer": "The post-Kaggle data prep involves downloading and organizing the data into the data folder, which is straightforward. The code implementation process is shown step by step afterward, allowing you to observe and understand without much effort. This approach ensures clarity and ease in following the workflow.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g011",
+    "query": "What are the three post-deployment risks: uncontrolled user queries, emergent system failures, and system drift?",
+    "ideal_answer": "Yes, the three post-deployment risks are: 1) uncontrolled user queries, 2) emergent systematic failures like bias or increased latency under load, and 3) system drift, which can make the offline evaluation setup obsolete.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g012",
+    "query": "Analyze MMLU’s inability to evaluate model reasoning depth and answer calibration accuracy.",
+    "ideal_answer": "MMLU cannot evaluate reasoning depth because it strictly measures breadth of knowledge, not the model's ability to reason through problems. Additionally, it does not assess calibration accuracy, meaning it doesn't test whether the model knows when its answers are correct or not.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g013",
+    "query": "How do GPT, Kimi K3, GROK, Claude, and Sonnet compare in cost, origin, and selection rationale?",
+    "ideal_answer": "GPT is a top candidate from OpenAI and is a bit more expensive. Kimi K3 is chosen due to recent positive feedback. GROK is included out of curiosity about Elon Musk's involvement. Claude comes from the Anthropic family and is unique in that regard. Sonnet is positioned mid-range in cost, between cheaper models like GDM and GLM and the more expensive GPT models.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g014",
+    "query": "Synthesize the five distinct topics previously covered in LLMEvalse from the session recap.",
+    "ideal_answer": "The five distinct topics previously covered in the LLMEvalse course were not explicitly listed in the session recap provided.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g015",
+    "query": "How to conduct regression testing and online evals for RAG chatbot per company level, baseline, and error analysis?",
+    "ideal_answer": "Regression testing for a RAG chatbot is done at one company-specific level—basic, experiment tracking, or CICD. After completing regression tests and establishing a new baseline, you deploy the model. Post-deployment, you continuously run online evaluations to identify real-time errors. These errors inform your offline evaluation, improving trust and accuracy. This cycle of regression testing, deployment, online error monitoring, and offline analysis is key to effective RAG chatbot evaluation beyond just checking recall, precision, or relevance.",
+    "source": "TODO-verify"
+  }
+]
