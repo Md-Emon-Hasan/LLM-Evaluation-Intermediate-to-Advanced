@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "created_at": "2026-10-18T12:58:59+00:00",
+    "full": false,
+    "git_sha": "d240b11",
+    "label": "chunk=500 overlap=100",
+    "n_metrics": 11,
+    "prompt_hash": "e0b95481305f",
+    "suite_seconds": 741.3
+  },
+  "metrics": {
+    "ops.cost.budget_pass": true,
+    "ops.cost.cost_per_query_usd": 0.00026521250000000003,
+    "ops.latency.e2e_p95_ms": 9534.598754990297,
+    "ops.latency.slo_e2e_pass": false,
+    "ops.latency.slo_ttft_pass": false,
+    "ops.reliability.error_rate": 0.0,
+    "ops.reliability.success_rate": 100.0,
+    "safety.leakage.pii_avg_score": 0.6,
+    "safety.leakage.protected_avg_score": 0.9780955379279643,
+    "safety.scope.avg_score": 0.9646024059264211,
+    "safety.toxicity.avg_toxicity": 1.0
+  }
+}
